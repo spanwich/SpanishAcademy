@@ -1,31 +1,231 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
-
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+﻿<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Academy del Espanol</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+</nav>
+<header class="masthead text-center text-white d-flex">
+    <div class="container my-auto">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <h1 class="text-uppercase text-red">
+                    <strong>El amor todo lo puede.</strong>
+                </h1>
+                <hr>
+            </div>
+            <div class="col-lg-8 mx-auto div-fade">
+                <p class="text-yellow mb-4">To be a world citizen nowadays, we have to keep pushing our skill beyond the boundary. Academy del Espanol aims to be the center where participants can immerse themselves in the language and culture as part of the learning process.</p>
+                <p class="text-yellow mb-4"> With lively and professional vibe, our Madrid-born founder has passionately distributed the love of teaching with students in Thailand for more than 4 years.</p>
+                @*<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>*@
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</header>
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-yellow">Our Service</h2>
+                <hr class="light">
+            </div>
+        </div>
     </div>
-</div>
+    <div class="container-fluid p-1">
+        <div class="row no-gutters popup-gallery">
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="Content/img/portfolio/fullsize/1.jpg">
+                    <img class="img-fluid" src="Content/img/portfolio/thumbnails/1.jpg" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Online Courses
+                            </div>
+                            <div class="project-name">
+                                30$ per rour
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="Content/img/portfolio/fullsize/2.jpg">
+                    <img class="img-fluid" src="Content/img/portfolio/thumbnails/2.jpg" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Group Courses
+                            </div>
+                            <div class="project-name">
+                                70$ Per hour
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="Content/img/portfolio/fullsize/3.jpg">
+                    <img class="img-fluid" src="Content/img/portfolio/thumbnails/3.jpg" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Personal Courses
+                            </div>
+                            <div class="project-name">
+                                100$ per hour
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="Content/img/portfolio/fullsize/4.jpg">
+                    <img class="img-fluid" src="Content/img/portfolio/thumbnails/4.jpg" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Children courses
+                            </div>
+                            <div class="project-name">
+                                45$ per hour
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="Content/img/portfolio/fullsize/5.jpg">
+                    <img class="img-fluid" src="Content/img/portfolio/thumbnails/5.jpg" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Tutor classes (D.E.L.E., )
+                            </div>
+                            <div class="project-name">
+                                120$ per hour
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="Content/img/portfolio/fullsize/6.jpg">
+                    <img class="img-fluid" src="Content/img/portfolio/thumbnails/6.jpg" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Special courses (IB, IGCSE)
+                            </div>
+                            <div class="project-name">
+                                200$ per hour
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Course level</h2>
+                <hr class="my-4">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                    <i class="fa fa-4x fa-child text-primary mb-3 sr-icons"></i>
+                    <h3 class="mb-3"> Beginner </h3>
+                    <p class="text-muted mb-0">A general basic ability to communicate in a limited number of the most familiar situations in everyday life.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                    <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+                    <h3 class="mb-3"> Intermediate </h3>
+                    <p class="text-muted mb-0">Users are able to handle the main structures of the language include communication in social situations.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                    <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+                    <h3 class="mb-3"> Advance </h3>
+                    <p class="text-muted mb-0">Approaching the linguistic competence of an educated native speaker.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                    <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+                    <h3 class="mb-3"> Master </h3>
+                    <p class="text-muted mb-0">Fine tune areas of specialization such as professional or literary use of Spanish.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-yellow text-red"  id="portfolio">
+    <div class="container text-center">
+        <h2 class="mb-4">Spanish Group Classes : Coming Classes</h2>
+        <hr class="my-4">
+        <table id="class-table" class="table table-responsive-md table-hover" cellspacing="0" cellpadding="0">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Day</th>
+                    <th>Class</th>
+                    <th>Time</th>
+                    <th>Total hours</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <hr class="my-4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 ml-auto text-center">
+                <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+                <p><span class="text-yellow">Spanish/English</span>+66-40-940-923</p>
+                <p><span class="text-yellow">Thai/Chinese</span>+66-86-977-1070</p>
+            </div>
+            <div class="col-lg-4 mr-auto text-center">
+                <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+                <p>
+                    <a href="mailto:your-email@your-domain.com">insert-your-email@here.com</a>
+                </p>
+                <p>
+                    <a href="mailto:your-email@your-domain.com">Line-id</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
