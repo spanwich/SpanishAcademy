@@ -239,6 +239,7 @@
     <Content Include="Content\img\Institute.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\img\logo_academyDelEspanol_minified.png" />
     <Content Include="Content\img\portfolio\fullsize\1.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

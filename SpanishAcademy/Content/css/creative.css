@@ -14,18 +14,18 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #ff2020; }
+  border-color: #c60b1e; }
 
 hr.light {
-  border-color: #ffd300; }
+  border-color: #ffc400; }
 
 a {
-  color: #ff2020;
+  color: #c60b1e;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:hover {
-    color: #ff2020; }
+    color: #c60b1e; }
 
 h1,
 h2,
@@ -36,22 +36,22 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .bg-primary {
-  background-color: #ff2020 !important; }
+  background-color: #c60b1e !important; }
 
 .bg-dark {
   background-color: #212529 !important; }
 
 .bg-yellow {
-  background-color: #ffd300 !important; }
+  background-color: #ffc400 !important; }
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
 
 .text-red {
-  color: #ff2020; }
+  color: #c60b1e; }
 
 .text-yellow {
-  color: #ffd300; }
+  color: #ffc400; }
 
 section {
   padding: 8rem 0; }
@@ -82,7 +82,7 @@ body {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #ffd300;
+  background-color: #ffc400;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -90,10 +90,10 @@ body {
   #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #ff2020;
+    color: #c60b1e;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #ff2020; }
+      color: #c60b1e; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
         font-size: .9rem;
@@ -103,10 +103,10 @@ body {
     }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-      color: #ff2020; }
+      color: #c60b1e; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-      color: #ff2020 !important;
+      color: #c60b1e !important;
       background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
@@ -116,11 +116,11 @@ body {
       border-color: transparent;
       background-color: transparent; }
       #mainNav .navbar-brand {
-        color: #ff2020;
-        text-shadow: 1px 1px 0px #ffd300;
+        color: #c60b1e;
+        text-shadow: 1px 1px 0px #ffc400;
       }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-          color: #ffd300; }
+          color: #ffc400; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link {
         padding: 0.5rem 1rem; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -128,20 +128,20 @@ body {
         color: rgba(255, 255, 255, 0.7); }
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-          color: #ffd300; }
+          color: #ffc400; }
       #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-        background-color: #ffd300; }
+        background-color: #ffc400; }
         #mainNav.navbar-shrink .navbar-brand {
-          color: #ff2020; }
+          color: #c60b1e; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-            color: #ff2020; }
+            color: #c60b1e; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
           color: #212529; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #ff2020; } }
+            color: #c60b1e; } }
 
 header.masthead {
   padding-top: 10rem;
@@ -222,7 +222,7 @@ header.masthead {
       font-size: 22px; } }
 
 .text-primary {
-  color: #ff2020 !important; }
+  color: #c60b1e !important; }
 
 .btn {
   font-weight: 700;
@@ -235,8 +235,8 @@ header.masthead {
   padding: 1rem 2rem; }
 
 .btn-primary {
-  background-color: #ff2020;
-  border-color: #ff2020; }
+  background-color: #c60b1e;
+  border-color: #c60b1e; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
     background-color: #ee4b28 !important; }
@@ -278,4 +278,7 @@ background: #ffffff;
   }
 body{
 background: url('http://www.arcmarks.com/arcmarks/images/grid.jpg');
+}
+.table td, .table th {
+    border-top: 1px solid rgb(128, 128, 128);
 }
