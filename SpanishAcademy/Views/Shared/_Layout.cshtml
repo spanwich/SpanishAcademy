@@ -15,7 +15,7 @@
     <!-- Plugin CSS -->
     <link href="~/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="~/Content/css/creative.css" rel="stylesheet">
+    <link href="~/Content/css/creative.min.css" rel="stylesheet">
 </head>
 <body id="page-top">
     @RenderBody()
@@ -31,24 +31,24 @@
     <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
     @*<script>
-        $(document).ready(function () {
-            $('#class-table').DataTable({
-                "processing": true,
-                "serverSide": true,
-                "bPaginate": false,
-                "searching": false,
-                "ajax": "Home/GetClass/",
-                "columns": [
-                    { "data": "first_name" },
-                    { "data": "last_name" },
-                    { "data": "position" },
-                    { "data": "office" },
-                    { "data": "start_date" },
-                    { "data": "salary" }
-                ]
+            $(document).ready(function () {
+                $('#class-table').DataTable({
+                    "processing": true,
+                    "serverSide": true,
+                    "bPaginate": false,
+                    "searching": false,
+                    "ajax": "Home/GetClass/",
+                    "columns": [
+                        { "data": "first_name" },
+                        { "data": "last_name" },
+                        { "data": "position" },
+                        { "data": "office" },
+                        { "data": "start_date" },
+                        { "data": "salary" }
+                    ]
+                });
             });
-        });
-    </script>*@
+        </script>*@
     <script>
         $(document).ready(function () {
             $('#class-table').dataTable({
@@ -56,7 +56,7 @@
                 "bProcessing": true,
                 "paging": false,
                 "searching": false,
-                "info":false,
+                "info": false,
                 "sAjaxDataProp": "feed.entry",
                 "sAjaxSource": "https://spreadsheets.google.com/feeds/list/1rmG59KueHFkXXIsmXLVh-pOFnTMddk7AyDJjrm1CDGU/od6/public/values?alt=json",
                 "aoColumns": [
@@ -68,6 +68,10 @@
                 ]
             });
         });
-        </script>
+
+        function show(param_div_id) {
+            document.getElementById('class-level').innerHTML = document.getElementById(param_div_id).innerHTML;
+        }
+    </script>
 </body>
 </html>

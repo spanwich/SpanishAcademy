@@ -226,7 +226,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\css\creative.css" />
-    <Content Include="Content\css\creative.min.css" />
+    <Content Include="Content\css\creative.min.css">
+      <DependentUpon>creative.css</DependentUpon>
+    </Content>
     <Content Include="Content\font-awesome.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -276,7 +278,9 @@
     <Content Include="Content\img\portfolio\thumbnails\6.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="favicon.ico" />
+    <Content Include="favicon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css">
@@ -318,7 +322,7 @@
     </Content>
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
+    <EmbeddedResource Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="Content\scss\creative.scss">
@@ -348,6 +352,7 @@
     <Content Include="Content\scss\_variables.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="bundleconfig.json" />
     <None Include="Properties\PublishProfiles\SpanishAcademy - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\SpanishAcademy - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\SpanishAcademy - Web Deploy %282%29.pubxml" />
@@ -363,7 +368,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\js\creative.js" />
-    <Content Include="Scripts\js\creative.min.js" />
+    <Content Include="Scripts\js\creative.min.js">
+      <DependentUpon>creative.js</DependentUpon>
+    </Content>
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\popper-utils.js" />
     <Content Include="Scripts\popper-utils.min.js" />
@@ -449,8 +456,12 @@
     <Content Include="Views\Shared\_Layout-Old.cshtml" />
     <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
-    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.woff" />
-    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.woff2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="vendor\font-awesome\fonts\FontAwesome.otf" />
     <Content Include="vendor\font-awesome\less\animated.less" />
     <Content Include="vendor\font-awesome\less\bordered-pulled.less" />
@@ -481,6 +492,21 @@
     <Content Include="vendor\font-awesome\scss\_stacked.scss" />
     <Content Include="vendor\font-awesome\scss\_variables.scss" />
     <Content Include="Views\Home\Index-Old.cshtml" />
+    <Content Include="Views\Home\pv_company.cshtml" />
+    <Content Include="Views\Home\pv_services.cshtml" />
+    <Content Include="Views\Home\pv_classes.cshtml" />
+    <Content Include="Views\Home\pv_place.cshtml" />
+    <Content Include="Views\Home\pv_student.cshtml" />
+    <Content Include="Views\Home\pv_instructor.cshtml" />
+    <Content Include="Views\Home\pv_contact.cshtml" />
+    <Content Include="Views\Home\pv_online.cshtml" />
+    <Content Include="Views\Home\pv_group.cshtml" />
+    <Content Include="Views\Home\pv_private.cshtml" />
+    <Content Include="Views\Home\pv_children.cshtml" />
+    <Content Include="Views\Home\pv_tutor.cshtml" />
+    <Content Include="Views\Home\pv_special.cshtml" />
+    <Content Include="Views\Home\pv_exam.cshtml" />
+    <Content Include="Views\Home\pv_dele.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
