@@ -190,7 +190,7 @@ header.masthead {
     height: 100%;
     text-align: center;
     opacity: 0;
-    color: #fff;
+    color: #ffc400;
     background: rgba(240, 95, 64, 0.9);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -212,7 +212,7 @@ header.masthead {
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 18px; }
   .portfolio-box:hover .portfolio-box-caption {
-    opacity: 0.8; }
+    opacity: 1; }
   .portfolio-box:focus {
     outline: none; }
   @media (min-width: 768px) {
@@ -281,4 +281,10 @@ body{
 }
 .table td, .table th {
     border-top: 1px solid rgb(128, 128, 128);
+}
+.centeredtext {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

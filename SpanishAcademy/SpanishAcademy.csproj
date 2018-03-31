@@ -235,105 +235,44 @@
     <Content Include="Content\font-awesome.min.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\img\+ Photos David\IMG_20180324_162337.jpg" />
-    <Content Include="Content\img\+ Photos David\P3240031.JPG" />
-    <Content Include="Content\img\+ Photos David\P3240035.JPG" />
-    <Content Include="Content\img\+ Photos David\P3240052.JPG" />
-    <Content Include="Content\img\+ Photos David\P3240055.JPG" />
-    <Content Include="Content\img\+ Photos David\P3240057.JPG" />
-    <Content Include="Content\img\+ Photos David\P3240058.JPG" />
-    <Content Include="Content\img\+ Photos David\P3240060.JPG" />
-    <Content Include="Content\img\Books_Materials\IMG_20180324_155926.jpg" />
-    <Content Include="Content\img\Books_Materials\IMG_20180324_155941.jpg" />
-    <Content Include="Content\img\Books_Materials\IMG_20180324_160026.jpg" />
-    <Content Include="Content\img\Books_Materials\IMG_20180324_160218.jpg" />
-    <Content Include="Content\img\Books_Materials\IMG_20180324_160230.jpg" />
-    <Content Include="Content\img\Books_Materials\P3240059.JPG" />
-    <Content Include="Content\img\Books_Materials\P3240066.JPG" />
-    <Content Include="Content\img\Books_Materials\P3240067.JPG" />
-    <Content Include="Content\img\Children class\P3240045.JPG" />
-    <Content Include="Content\img\Children class\P3240047.JPG" />
-    <Content Include="Content\img\Children class\P3240048.JPG" />
-    <Content Include="Content\img\Company class\P3240042.JPG" />
-    <Content Include="Content\img\Contact page\P3240002.JPG" />
-    <Content Include="Content\img\Events\1522027783507.jpg" />
-    <Content Include="Content\img\Events\1522027799376.jpg" />
-    <Content Include="Content\img\Events\1522027827064.jpg" />
-    <Content Include="Content\img\Events\IMG_20180324_180911.jpg" />
-    <Content Include="Content\img\Events\IMG_20180324_184943.jpg" />
-    <Content Include="Content\img\Events\IMG_20180324_195333.jpg" />
-    <Content Include="Content\img\Feedback students\armando%281%29.jpg" />
-    <Content Include="Content\img\Feedback students\armando.jpg" />
-    <Content Include="Content\img\Feedback students\IMG_20171128_151033.jpg" />
-    <Content Include="Content\img\Feedback students\IMG_20171213_155028.jpg" />
-    <Content Include="Content\img\Feedback students\IMG_20180218_092434.jpg" />
-    <Content Include="Content\img\Feedback students\IMG_20180218_180021.jpg" />
-    <Content Include="Content\img\Feedback students\IMG_8359 Vara.jpg" />
-    <Content Include="Content\img\Feedback students\vara.jpg" />
-    <Content Include="Content\img\Feedback students\yu.jpg" />
-    <Content Include="Content\img\Feedback students\Yu_Comment.jpg" />
-    <Content Include="Content\img\Group class\P3240069.JPG" />
-    <Content Include="Content\img\Group class\P3240072.JPG" />
-    <Content Include="Content\img\Group class\P3240073.JPG" />
-    <Content Include="Content\img\Group class\P3240089.JPG" />
-    <Content Include="Content\img\Group class\P3240092.JPG" />
-    <Content Include="Content\img\header.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Content\header.jpg" />
+    <Content Include="Content\header.old.jpg" />
+    <Content Include="Content\img\ChildrenClass\ChildrenClassA.jpg" />
+    <Content Include="Content\img\ChildrenClass\ChildrenClassB.jpg" />
+    <Content Include="Content\img\ChildrenClass\ChildrenClassC.jpg" />
+    <Content Include="Content\img\CompanyClass\CompanyClass.jpg" />
+    <Content Include="Content\img\ContactPage\ContactPage.jpg" />
+    <Content Include="Content\img\ExamClass\ExamClass.jpg" />
+    <Content Include="Content\img\GroupClass\GroupClassA.jpg" />
+    <Content Include="Content\img\GroupClass\GroupClassB.jpg" />
+    <Content Include="Content\img\GroupClass\GroupClassC.jpg" />
+    <Content Include="Content\img\GroupClass\GroupClassD.jpg" />
+    <Content Include="Content\img\GroupClass\GroupClassE.jpg" />
+    <Content Include="Content\img\header.jpg" />
     <Content Include="Content\img\header.old.jpg" />
-    <Content Include="Content\img\Institute.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\Instructor Ana\21752933_10207979823652258_3417446318384742790_o.jpg" />
-    <Content Include="Content\img\Instructor David\n1.jpg" />
-    <Content Include="Content\img\Instructor David\n2.JPG" />
-    <Content Include="Content\img\Instructor pablo\IMG_20170812_155420539_2.jpg" />
+    <Content Include="Content\img\Institute.png" />
+    <Content Include="Content\img\InstructorAna\Ana.jpg" />
+    <Content Include="Content\img\InstructorDavid\DavidA.jpg" />
+    <Content Include="Content\img\InstructorDavid\DavidB.jpg" />
+    <Content Include="Content\img\InstructorPablo\Pablo.jpg" />
     <Content Include="Content\img\logo_academyDelEspanol_minified.png" />
-    <Content Include="Content\img\Main Picture\n1.JPG" />
-    <Content Include="Content\img\Main Picture\n2.JPG" />
-    <Content Include="Content\img\Main Picture\n3.JPG" />
-    <Content Include="Content\img\Online class\P3240006.JPG" />
-    <Content Include="Content\img\Online class\P3240007.JPG" />
-    <Content Include="Content\img\portfolio\fullsize\1.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\fullsize\2.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\fullsize\3.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\fullsize\4.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\fullsize\5.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\fullsize\6.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\thumbnails\1.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\thumbnails\2.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\thumbnails\3.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\thumbnails\4.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\thumbnails\5.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\portfolio\thumbnails\6.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\img\Private class\IMG_20180324_160602.jpg" />
-    <Content Include="Content\img\Private class\P3240032.JPG" />
-    <Content Include="Content\img\Tutor class\IMG_20180324_162634.jpg" />
-    <Content Include="Content\img\Tutor class\IMG_20180324_162635.jpg" />
+    <Content Include="Content\img\MainPicture\n1.jpg" />
+    <Content Include="Content\img\MainPicture\n2.jpg" />
+    <Content Include="Content\img\MainPicture\n3.jpg" />
+    <Content Include="Content\img\OnlineClass\OnlineClassA.jpg" />
+    <Content Include="Content\img\OnlineClass\OnlineClassB.jpg" />
+    <Content Include="Content\img\Places\PlaceA.jpg" />
+    <Content Include="Content\img\PrivateClass\PrivateClassA.jpg" />
+    <Content Include="Content\img\PrivateClass\PrivateClassB.jpg" />
+    <Content Include="Content\img\SpecialClass\SpecialClass.jpg" />
+    <Content Include="Content\img\Student\StudentA.jpg" />
+    <Content Include="Content\img\Student\StudentB.jpg" />
+    <Content Include="Content\img\Student\StudentC.jpg" />
+    <Content Include="Content\img\TutorClass\TutorClassA.jpg" />
+    <Content Include="Content\img\TutorClass\TutorClassB.jpg" />
+    <Content Include="Content\img\TutorClass\TutorClassC.jpg" />
+    <Content Include="Content\Institute.png" />
+    <Content Include="Content\logo_academyDelEspanol_minified.png" />
     <Content Include="favicon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
