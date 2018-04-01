@@ -70,7 +70,22 @@
         });
 
         function show(param_div_id) {
-            document.getElementById('class-level').innerHTML = document.getElementById(param_div_id).innerHTML;
+            var viewportWidth = $(window).width();
+
+            if (viewportWidth < 768) {
+                document.getElementById('A1').style.display = "none";
+                document.getElementById('A2').style.display = "none";
+                document.getElementById('B1').style.display = "none";
+                document.getElementById('B2').style.display = "none";
+                document.getElementById('C1').style.display = "none";
+                document.getElementById('C2').style.display = "none";
+
+                document.getElementById(param_div_id).style.display = "block";
+            }
+            else
+            {
+                document.getElementById('class-level').innerHTML = document.getElementById(param_div_id).innerHTML;
+            }
         }
     </script>
 </body>
