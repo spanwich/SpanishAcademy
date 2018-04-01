@@ -256,6 +256,7 @@ header.masthead {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+    padding: 2px;
 }
 
     .portfolio-box .portfolio-box-caption {
@@ -276,7 +277,7 @@ header.masthead {
         .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
             position: absolute;
             top: 10%;
-            width: 100%;
+            width: 90%;
             transform: translateY(-90%);
             text-align: center;
         }
@@ -288,7 +289,7 @@ header.masthead {
             }
 
             .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-                text-align: right;
+                text-align: center;
                 font-size: 14px;
                 background-color: #c60b1e;
                 color: #ffc400;
@@ -309,7 +310,7 @@ header.masthead {
 
 @media (min-width: 768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        text-align: right;
+        text-align: center;
         font-size: 14px;
         background-color: #c60b1e;
         color: #ffc400;

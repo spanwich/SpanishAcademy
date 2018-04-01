@@ -248,7 +248,7 @@
     <Content Include="Content\img\GroupClass\GroupClassC.jpg" />
     <Content Include="Content\img\GroupClass\GroupClassD.jpg" />
     <Content Include="Content\img\GroupClass\GroupClassE.jpg" />
-    <Content Include="Content\img\header.jpg" />
+    <Content Include="Content\img\header-madrid.jpg" />
     <Content Include="Content\img\header.old.jpg" />
     <Content Include="Content\img\Institute.png" />
     <Content Include="Content\img\InstructorAna\Ana.jpg" />
@@ -256,18 +256,23 @@
     <Content Include="Content\img\InstructorDavid\DavidB.jpg" />
     <Content Include="Content\img\InstructorPablo\Pablo.jpg" />
     <Content Include="Content\img\logo_academyDelEspanol_minified.png" />
-    <Content Include="Content\img\MainPicture\n1.jpg" />
-    <Content Include="Content\img\MainPicture\n2.jpg" />
-    <Content Include="Content\img\MainPicture\n3.jpg" />
+    <Content Include="Content\img\header.jpg" />
     <Content Include="Content\img\OnlineClass\OnlineClassA.jpg" />
     <Content Include="Content\img\OnlineClass\OnlineClassB.jpg" />
     <Content Include="Content\img\Places\PlaceA.jpg" />
     <Content Include="Content\img\PrivateClass\PrivateClassA.jpg" />
     <Content Include="Content\img\PrivateClass\PrivateClassB.jpg" />
     <Content Include="Content\img\SpecialClass\SpecialClass.jpg" />
+    <Content Include="Content\img\Student\FeedBackA.jpg" />
+    <Content Include="Content\img\Student\FeedBackB.jpg" />
+    <Content Include="Content\img\Student\FeedBackC.jpg" />
+    <Content Include="Content\img\Student\FeedBackD.jpg" />
+    <Content Include="Content\img\Student\FeedBackE.jpg" />
     <Content Include="Content\img\Student\StudentA.jpg" />
     <Content Include="Content\img\Student\StudentB.jpg" />
     <Content Include="Content\img\Student\StudentC.jpg" />
+    <Content Include="Content\img\Student\StudentD.jpg" />
+    <Content Include="Content\img\Student\StudentE.jpg" />
     <Content Include="Content\img\TutorClass\TutorClassA.jpg" />
     <Content Include="Content\img\TutorClass\TutorClassB.jpg" />
     <Content Include="Content\img\TutorClass\TutorClassC.jpg" />
@@ -506,6 +511,9 @@
     <Content Include="Views\Home\pv_special.cshtml" />
     <Content Include="Views\Home\pv_exam.cshtml" />
     <Content Include="Views\Home\pv_dele.cshtml" />
+    <Content Include="Views\Home\pv_david.cshtml" />
+    <Content Include="Views\Home\pv_ana.cshtml" />
+    <Content Include="Views\Home\pv_pablo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
