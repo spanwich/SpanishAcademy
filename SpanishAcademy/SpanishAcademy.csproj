@@ -514,6 +514,7 @@
     <Content Include="Views\Home\pv_david.cshtml" />
     <Content Include="Views\Home\pv_ana.cshtml" />
     <Content Include="Views\Home\pv_pablo.cshtml" />
+    <Content Include="Views\Home\pv_more.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
