@@ -244,6 +244,7 @@
     <Content Include="Content\img\CompanyClass\CompanyClass.jpg" />
     <Content Include="Content\img\ContactPage\ContactPage.jpg" />
     <Content Include="Content\img\Events\DELE.jpg" />
+    <Content Include="Content\img\Events\Events.jpg" />
     <Content Include="Content\img\Events\IGCSE.jpg" />
     <Content Include="Content\img\Events\TestYourSkills.jpg" />
     <Content Include="Content\img\Events\vIDEOS.png" />
@@ -273,6 +274,7 @@
     <Content Include="Content\img\Student\FeedBackC.jpg" />
     <Content Include="Content\img\Student\FeedBackD.jpg" />
     <Content Include="Content\img\Student\FeedBackE.jpg" />
+    <Content Include="Content\img\Student\feedbacknew.png" />
     <Content Include="Content\img\Student\StudentA.jpg" />
     <Content Include="Content\img\Student\StudentB.jpg" />
     <Content Include="Content\img\Student\StudentC.jpg" />
