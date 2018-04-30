@@ -249,6 +249,7 @@
     <Content Include="Content\img\Events\TestYourSkills.jpg" />
     <Content Include="Content\img\Events\vIDEOS.png" />
     <Content Include="Content\img\ExamClass\ExamClass.jpg" />
+    <Content Include="Content\img\g939.png" />
     <Content Include="Content\img\GroupClass\GroupClassA.jpg" />
     <Content Include="Content\img\GroupClass\GroupClassB.jpg" />
     <Content Include="Content\img\GroupClass\GroupClassC.jpg" />
@@ -261,6 +262,7 @@
     <Content Include="Content\img\InstructorDavid\DavidA.jpg" />
     <Content Include="Content\img\InstructorDavid\DavidB.jpg" />
     <Content Include="Content\img\InstructorPablo\Pablo.jpg" />
+    <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\logo_academyDelEspanol_minified.png" />
     <Content Include="Content\img\header.jpg" />
     <Content Include="Content\img\OnlineClass\OnlineClassA.jpg" />
