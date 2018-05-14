@@ -237,7 +237,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\header.jpg" />
-    <Content Include="Content\header.old.jpg" />
     <Content Include="Content\img\ChildrenClass\ChildrenClassA.jpg" />
     <Content Include="Content\img\ChildrenClass\ChildrenClassB.jpg" />
     <Content Include="Content\img\ChildrenClass\ChildrenClassC.jpg" />
