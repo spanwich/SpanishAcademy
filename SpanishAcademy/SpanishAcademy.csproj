@@ -255,7 +255,6 @@
     <Content Include="Content\img\GroupClass\GroupClassD.jpg" />
     <Content Include="Content\img\GroupClass\GroupClassE.jpg" />
     <Content Include="Content\img\header-madrid.jpg" />
-    <Content Include="Content\img\header.old.jpg" />
     <Content Include="Content\img\Institute.png" />
     <Content Include="Content\img\InstructorAna\Ana.jpg" />
     <Content Include="Content\img\InstructorDavid\DavidA.jpg" />
@@ -281,6 +280,8 @@
     <Content Include="Content\img\Student\StudentC.jpg" />
     <Content Include="Content\img\Student\StudentD.jpg" />
     <Content Include="Content\img\Student\StudentE.jpg" />
+    <Content Include="Content\img\thumbnail_espanol_text.png" />
+    <Content Include="Content\img\thumbnail_logo.png" />
     <Content Include="Content\img\TutorClass\TutorClassA.jpg" />
     <Content Include="Content\img\TutorClass\TutorClassB.jpg" />
     <Content Include="Content\img\TutorClass\TutorClassC.jpg" />

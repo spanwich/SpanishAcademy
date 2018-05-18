@@ -202,7 +202,7 @@ body {
 
 header.masthead {
     padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
+    padding-bottom: calc(20rem - 56px);
     background-image: url("../img/header.jpg");
     background-position: center top;
     -webkit-background-size: cover;
