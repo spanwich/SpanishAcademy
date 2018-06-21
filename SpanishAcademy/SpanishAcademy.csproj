@@ -236,7 +236,6 @@
     <Content Include="Content\font-awesome.min.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\header.jpg" />
     <Content Include="Content\img\ChildrenClass\ChildrenClassA.jpg" />
     <Content Include="Content\img\ChildrenClass\ChildrenClassB.jpg" />
     <Content Include="Content\img\ChildrenClass\ChildrenClassC.jpg" />
